@@ -10,11 +10,21 @@ using System.Windows.Forms;
 
 namespace YGO_ParkingProjectServer
 {
-    public partial class Form1 : Form
+    public partial class ServerForm : Form
     {
-        public Form1()
+        public ServerForm()
         {
             InitializeComponent();
+        }
+
+        private void serverForm_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void buttonStartServer_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
